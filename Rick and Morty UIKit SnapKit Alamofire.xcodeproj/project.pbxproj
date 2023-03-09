@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860E0D0E29B65D2D00598AEA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 860E0D0D29B65D2D00598AEA /* SnapKit */; };
+		860E0D1A29B6938E00598AEA /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E0D1929B6938E00598AEA /* CharactersViewController.swift */; };
+		860E0D1D29B6A2C800598AEA /* CharactersViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E0D1C29B6A2C800598AEA /* CharactersViewController+TableView.swift */; };
+		860E0D1F29B6A31E00598AEA /* CharactersViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E0D1E29B6A31E00598AEA /* CharactersViewController+SearchBar.swift */; };
+		860E0D2129B6A66800598AEA /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E0D2029B6A66800598AEA /* CharactersViewModel.swift */; };
+		860E0D2329B6A79400598AEA /* CharacterViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E0D2229B6A79400598AEA /* CharacterViewModelProtocol.swift */; };
+		862726CC29B8B14C003A7265 /* CharacterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726CB29B8B14C003A7265 /* CharacterTableCell.swift */; };
+		862726CE29B8D233003A7265 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726CD29B8D232003A7265 /* UIViewExtensions.swift */; };
+		862726D029B8D57A003A7265 /* CharacterTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726CF29B8D57A003A7265 /* CharacterTableCellViewModel.swift */; };
+		862726D229B8D658003A7265 /* CharacterTableCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726D129B8D658003A7265 /* CharacterTableCellViewModelProtocol.swift */; };
+		862726D529B8DCC1003A7265 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 862726D429B8DCC1003A7265 /* SDWebImage */; };
+		862726D829B8F2BE003A7265 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726D729B8F2BE003A7265 /* CharacterDetailViewController.swift */; };
+		862726DD29B8FAEB003A7265 /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726DC29B8FAEB003A7265 /* CharacterDetailViewModel.swift */; };
+		862726DF29B8FB7A003A7265 /* CharacterDetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726DE29B8FB7A003A7265 /* CharacterDetailViewModelProtocol.swift */; };
+		862726E129B9153C003A7265 /* ColourConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862726E029B9153C003A7265 /* ColourConstant.swift */; };
 		864EDEAC29B2180A00AD9F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDEAB29B2180A00AD9F34 /* AppDelegate.swift */; };
 		864EDEAE29B2180A00AD9F34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDEAD29B2180A00AD9F34 /* SceneDelegate.swift */; };
-		864EDEB029B2180A00AD9F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDEAF29B2180A00AD9F34 /* ViewController.swift */; };
-		864EDEB329B2180A00AD9F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864EDEB129B2180A00AD9F34 /* Main.storyboard */; };
+		864EDEB029B2180A00AD9F34 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDEAF29B2180A00AD9F34 /* MenuViewController.swift */; };
 		864EDEB529B2180D00AD9F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864EDEB429B2180D00AD9F34 /* Assets.xcassets */; };
 		864EDEB829B2180D00AD9F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864EDEB629B2180D00AD9F34 /* LaunchScreen.storyboard */; };
 		864EDEC329B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDEC229B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireTests.swift */; };
 		864EDECD29B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDECC29B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireUITests.swift */; };
 		864EDECF29B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EDECE29B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireUITestsLaunchTests.swift */; };
+		86958DD529B79014007B7C0F /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86958DD429B79014007B7C0F /* NetworkConstant.swift */; };
+		86958DD729B791B9007B7C0F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86958DD629B791B9007B7C0F /* APICaller.swift */; };
+		86958DD929B79289007B7C0F /* AllCharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86958DD829B79289007B7C0F /* AllCharactersModel.swift */; };
+		86958DDC29B795CA007B7C0F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 86958DDB29B795CA007B7C0F /* Alamofire */; };
+		86958DDE29B7ADDC007B7C0F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86958DDD29B7ADDB007B7C0F /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +55,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		860E0D1929B6938E00598AEA /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		860E0D1C29B6A2C800598AEA /* CharactersViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharactersViewController+TableView.swift"; sourceTree = "<group>"; };
+		860E0D1E29B6A31E00598AEA /* CharactersViewController+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharactersViewController+SearchBar.swift"; sourceTree = "<group>"; };
+		860E0D2029B6A66800598AEA /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		860E0D2229B6A79400598AEA /* CharacterViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModelProtocol.swift; sourceTree = "<group>"; };
+		862726CB29B8B14C003A7265 /* CharacterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableCell.swift; sourceTree = "<group>"; };
+		862726CD29B8D232003A7265 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		862726CF29B8D57A003A7265 /* CharacterTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableCellViewModel.swift; sourceTree = "<group>"; };
+		862726D129B8D658003A7265 /* CharacterTableCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		862726D729B8F2BE003A7265 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		862726DC29B8FAEB003A7265 /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
+		862726DE29B8FB7A003A7265 /* CharacterDetailViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		862726E029B9153C003A7265 /* ColourConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourConstant.swift; sourceTree = "<group>"; };
 		864EDEA829B2180A00AD9F34 /* Rick and Morty UIKit SnapKit Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty UIKit SnapKit Alamofire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864EDEAB29B2180A00AD9F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864EDEAD29B2180A00AD9F34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		864EDEAF29B2180A00AD9F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		864EDEB229B2180A00AD9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		864EDEAF29B2180A00AD9F34 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		864EDEB429B2180D00AD9F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864EDEB729B2180D00AD9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864EDEB929B2180D00AD9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +80,10 @@
 		864EDEC829B2180E00AD9F34 /* Rick and Morty UIKit SnapKit AlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick and Morty UIKit SnapKit AlamofireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864EDECC29B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_and_Morty_UIKit_SnapKit_AlamofireUITests.swift; sourceTree = "<group>"; };
 		864EDECE29B2180E00AD9F34 /* Rick_and_Morty_UIKit_SnapKit_AlamofireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_and_Morty_UIKit_SnapKit_AlamofireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86958DD429B79014007B7C0F /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		86958DD629B791B9007B7C0F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		86958DD829B79289007B7C0F /* AllCharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharactersModel.swift; sourceTree = "<group>"; };
+		86958DDD29B7ADDB007B7C0F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862726D529B8DCC1003A7265 /* SDWebImage in Frameworks */,
+				860E0D0E29B65D2D00598AEA /* SnapKit in Frameworks */,
+				86958DDC29B795CA007B7C0F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +114,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860E0D1129B68F5700598AEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				862726CA29B8B0F9003A7265 /* CharacterCell */,
+				864EDEB629B2180D00AD9F34 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		860E0D1229B68F7800598AEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				862726DB29B8FAC8003A7265 /* CharacterDetailViewModel */,
+				862726D929B8FA8B003A7265 /* CharactersViewModel */,
+				862726DA29B8FAA5003A7265 /* CharacterTableCellViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		860E0D1329B68F8F00598AEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86958DD829B79289007B7C0F /* AllCharactersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		860E0D1429B68F9D00598AEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				864EDEAF29B2180A00AD9F34 /* MenuViewController.swift */,
+				860E0D1B29B6A29300598AEA /* CharactersViewController */,
+				862726D629B8F179003A7265 /* CharacterDetailViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		860E0D1529B68FB200598AEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86958DDD29B7ADDB007B7C0F /* Observable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		860E0D1629B68FCB00598AEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				864EDEB429B2180D00AD9F34 /* Assets.xcassets */,
+				862726E029B9153C003A7265 /* ColourConstant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		860E0D1729B68FDD00598AEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				862726CD29B8D232003A7265 /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		860E0D1829B68FF400598AEA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				86958DD429B79014007B7C0F /* NetworkConstant.swift */,
+				86958DD629B791B9007B7C0F /* APICaller.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		860E0D1B29B6A29300598AEA /* CharactersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				860E0D1929B6938E00598AEA /* CharactersViewController.swift */,
+				860E0D1C29B6A2C800598AEA /* CharactersViewController+TableView.swift */,
+				860E0D1E29B6A31E00598AEA /* CharactersViewController+SearchBar.swift */,
+			);
+			path = CharactersViewController;
+			sourceTree = "<group>";
+		};
+		862726CA29B8B0F9003A7265 /* CharacterCell */ = {
+			isa = PBXGroup;
+			children = (
+				862726CB29B8B14C003A7265 /* CharacterTableCell.swift */,
+			);
+			path = CharacterCell;
+			sourceTree = "<group>";
+		};
+		862726D629B8F179003A7265 /* CharacterDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				862726D729B8F2BE003A7265 /* CharacterDetailViewController.swift */,
+			);
+			path = CharacterDetailViewController;
+			sourceTree = "<group>";
+		};
+		862726D929B8FA8B003A7265 /* CharactersViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				860E0D2229B6A79400598AEA /* CharacterViewModelProtocol.swift */,
+				860E0D2029B6A66800598AEA /* CharactersViewModel.swift */,
+			);
+			path = CharactersViewModel;
+			sourceTree = "<group>";
+		};
+		862726DA29B8FAA5003A7265 /* CharacterTableCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				862726D129B8D658003A7265 /* CharacterTableCellViewModelProtocol.swift */,
+				862726CF29B8D57A003A7265 /* CharacterTableCellViewModel.swift */,
+			);
+			path = CharacterTableCellViewModel;
+			sourceTree = "<group>";
+		};
+		862726DB29B8FAC8003A7265 /* CharacterDetailViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				862726DE29B8FB7A003A7265 /* CharacterDetailViewModelProtocol.swift */,
+				862726DC29B8FAEB003A7265 /* CharacterDetailViewModel.swift */,
+			);
+			path = CharacterDetailViewModel;
+			sourceTree = "<group>";
+		};
 		864EDE9F29B2180A00AD9F34 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +261,16 @@
 		864EDEAA29B2180A00AD9F34 /* Rick and Morty UIKit SnapKit Alamofire */ = {
 			isa = PBXGroup;
 			children = (
+				860E0D1829B68FF400598AEA /* Networking */,
+				860E0D1729B68FDD00598AEA /* Extensions */,
+				860E0D1629B68FCB00598AEA /* Resources */,
+				860E0D1529B68FB200598AEA /* Classes */,
+				860E0D1429B68F9D00598AEA /* Controllers */,
+				860E0D1329B68F8F00598AEA /* Model */,
+				860E0D1129B68F5700598AEA /* View */,
+				860E0D1229B68F7800598AEA /* ViewModel */,
 				864EDEAB29B2180A00AD9F34 /* AppDelegate.swift */,
 				864EDEAD29B2180A00AD9F34 /* SceneDelegate.swift */,
-				864EDEAF29B2180A00AD9F34 /* ViewController.swift */,
-				864EDEB129B2180A00AD9F34 /* Main.storyboard */,
-				864EDEB429B2180D00AD9F34 /* Assets.xcassets */,
-				864EDEB629B2180D00AD9F34 /* LaunchScreen.storyboard */,
 				864EDEB929B2180D00AD9F34 /* Info.plist */,
 			);
 			path = "Rick and Morty UIKit SnapKit Alamofire";
@@ -143,6 +309,11 @@
 			dependencies = (
 			);
 			name = "Rick and Morty UIKit SnapKit Alamofire";
+			packageProductDependencies = (
+				860E0D0D29B65D2D00598AEA /* SnapKit */,
+				86958DDB29B795CA007B7C0F /* Alamofire */,
+				862726D429B8DCC1003A7265 /* SDWebImage */,
+			);
 			productName = "Rick and Morty UIKit SnapKit Alamofire";
 			productReference = 864EDEA829B2180A00AD9F34 /* Rick and Morty UIKit SnapKit Alamofire.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +386,11 @@
 				Base,
 			);
 			mainGroup = 864EDE9F29B2180A00AD9F34;
+			packageReferences = (
+				860E0D0C29B65D2D00598AEA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				86958DDA29B795CA007B7C0F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				862726D329B8DCC1003A7265 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 864EDEA929B2180A00AD9F34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +409,6 @@
 			files = (
 				864EDEB829B2180D00AD9F34 /* LaunchScreen.storyboard in Resources */,
 				864EDEB529B2180D00AD9F34 /* Assets.xcassets in Resources */,
-				864EDEB329B2180A00AD9F34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +433,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				864EDEB029B2180A00AD9F34 /* ViewController.swift in Sources */,
+				860E0D1D29B6A2C800598AEA /* CharactersViewController+TableView.swift in Sources */,
+				860E0D2129B6A66800598AEA /* CharactersViewModel.swift in Sources */,
+				862726CC29B8B14C003A7265 /* CharacterTableCell.swift in Sources */,
+				860E0D1A29B6938E00598AEA /* CharactersViewController.swift in Sources */,
+				86958DD929B79289007B7C0F /* AllCharactersModel.swift in Sources */,
+				862726D029B8D57A003A7265 /* CharacterTableCellViewModel.swift in Sources */,
+				86958DDE29B7ADDC007B7C0F /* Observable.swift in Sources */,
+				862726D229B8D658003A7265 /* CharacterTableCellViewModelProtocol.swift in Sources */,
+				86958DD729B791B9007B7C0F /* APICaller.swift in Sources */,
+				862726DF29B8FB7A003A7265 /* CharacterDetailViewModelProtocol.swift in Sources */,
+				864EDEB029B2180A00AD9F34 /* MenuViewController.swift in Sources */,
+				862726CE29B8D233003A7265 /* UIViewExtensions.swift in Sources */,
+				860E0D2329B6A79400598AEA /* CharacterViewModelProtocol.swift in Sources */,
+				862726E129B9153C003A7265 /* ColourConstant.swift in Sources */,
 				864EDEAC29B2180A00AD9F34 /* AppDelegate.swift in Sources */,
+				860E0D1F29B6A31E00598AEA /* CharactersViewController+SearchBar.swift in Sources */,
+				862726D829B8F2BE003A7265 /* CharacterDetailViewController.swift in Sources */,
+				862726DD29B8FAEB003A7265 /* CharacterDetailViewModel.swift in Sources */,
+				86958DD529B79014007B7C0F /* NetworkConstant.swift in Sources */,
 				864EDEAE29B2180A00AD9F34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +489,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		864EDEB129B2180A00AD9F34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				864EDEB229B2180A00AD9F34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		864EDEB629B2180D00AD9F34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +626,6 @@
 				INFOPLIST_FILE = "Rick and Morty UIKit SnapKit Alamofire/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +653,6 @@
 				INFOPLIST_FILE = "Rick and Morty UIKit SnapKit Alamofire/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +784,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		860E0D0C29B65D2D00598AEA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		862726D329B8DCC1003A7265 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		86958DDA29B795CA007B7C0F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		860E0D0D29B65D2D00598AEA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 860E0D0C29B65D2D00598AEA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		862726D429B8DCC1003A7265 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 862726D329B8DCC1003A7265 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		86958DDB29B795CA007B7C0F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86958DDA29B795CA007B7C0F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 864EDEA029B2180A00AD9F34 /* Project object */;
 }
